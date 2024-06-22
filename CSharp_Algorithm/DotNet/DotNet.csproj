@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Algorithm_PerfectNumber</StartupObject>
+    <StartupObject>AverageAlgorithm</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="Algorithms\Algorithm_PerfectNumber.cs" />
     <Compile Include="Algorithms\ArithmeticSequence.cs" />
+    <Compile Include="Algorithms\CountAlgorithm\AverageAlgorithm.cs" />
     <Compile Include="Algorithms\CountAlgorithm\CountAlgorithm.cs" />
     <Compile Include="Algorithms\PrimeNumber.cs" />
     <Compile Include="Algorithms\PrimeNumberCount.cs" />
