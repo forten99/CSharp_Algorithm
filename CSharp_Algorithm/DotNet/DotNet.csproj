@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NearAlgorithm</StartupObject>
+    <StartupObject>NearAll</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -76,6 +76,7 @@
     <Compile Include="Algorithms\MaxAlgorithm\MaxAlgorithm.cs" />
     <Compile Include="Algorithms\MinAlgorithm\MinAlgorithm.cs" />
     <Compile Include="Algorithms\NearAlgorithm\NearAlgorithm.cs" />
+    <Compile Include="Algorithms\NearAlgorithm\NearAll.cs" />
     <Compile Include="Algorithms\PrimeNumber.cs" />
     <Compile Include="Algorithms\PrimeNumberCount.cs" />
     <Compile Include="Algorithms\SumAlgorithm.cs" />
