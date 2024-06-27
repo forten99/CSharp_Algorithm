@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NearAll</StartupObject>
+    <StartupObject>RankAlgorithm</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -79,6 +79,7 @@
     <Compile Include="Algorithms\NearAlgorithm\NearAll.cs" />
     <Compile Include="Algorithms\PrimeNumber.cs" />
     <Compile Include="Algorithms\PrimeNumberCount.cs" />
+    <Compile Include="Algorithms\RankAlgorithm\RankAlgorithm.cs" />
     <Compile Include="Algorithms\SumAlgorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
