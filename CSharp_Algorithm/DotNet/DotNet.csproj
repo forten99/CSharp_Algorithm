@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SearchAlgorithm</StartupObject>
+    <StartupObject>MergeAlgorithm</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -83,6 +83,7 @@
     <Compile Include="Algorithms\SearchAlgorithm\SearchAlgorithm.cs" />
     <Compile Include="Algorithms\SortAlgorithm\SortAlgorithm.cs" />
     <Compile Include="Algorithms\SumAlgorithm.cs" />
+    <Compile Include="MergeAlgorithm\MergeAlgorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
