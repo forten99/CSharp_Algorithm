@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SortAlgorithm</StartupObject>
+    <StartupObject>SearchAlgorithm</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -80,6 +80,7 @@
     <Compile Include="Algorithms\PrimeNumber.cs" />
     <Compile Include="Algorithms\PrimeNumberCount.cs" />
     <Compile Include="Algorithms\RankAlgorithm\RankAlgorithm.cs" />
+    <Compile Include="Algorithms\SearchAlgorithm\SearchAlgorithm.cs" />
     <Compile Include="Algorithms\SortAlgorithm\SortAlgorithm.cs" />
     <Compile Include="Algorithms\SumAlgorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
