@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ModeAlgorithm</StartupObject>
+    <StartupObject>GroupAlgorithm</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -73,6 +73,7 @@
     <Compile Include="Algorithms\CountAlgorithm\AverageAlgorithm.cs" />
     <Compile Include="Algorithms\CountAlgorithm\AverageCount.cs" />
     <Compile Include="Algorithms\CountAlgorithm\CountAlgorithm.cs" />
+    <Compile Include="Algorithms\GroupAlgorithm\GroupAlgorithm.cs" />
     <Compile Include="Algorithms\MaxAlgorithm\MaxAlgorithm.cs" />
     <Compile Include="Algorithms\MinAlgorithm\MinAlgorithm.cs" />
     <Compile Include="Algorithms\ModeAlgorithm\ModeAlgorithm.cs" />
