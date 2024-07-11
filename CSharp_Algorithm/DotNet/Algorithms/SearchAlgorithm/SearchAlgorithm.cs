@@ -18,7 +18,7 @@ class SearchAlgorithm
         bool flag = false;      // 플래그 변수: 찾으면 true 찾지못하면 false
         int index = -1;         // 인덱스 변수: 찾은 위치
 
-        //[2] Process: 이진 검색(Binary Search(: Full Scan -> Index Scan
+        //[2] Process: 이진 검색(Binary Search): Full Scan -> Index Scan
         int low = 0;    // min: 낮은 인덱스
         int high = N-1; // max: 높은 인덱스
 
